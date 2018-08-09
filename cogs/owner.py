@@ -7,7 +7,7 @@ class Owner:
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(name='logout', aliases=['kill', 'die'])
+    @commands.command(name='logout', aliases=['kill', 'die', 'kys'])
     @commands.is_owner()
     async def do_logout(self, ctx):
         """Logs out the bot."""
